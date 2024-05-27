@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Teko", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: rgb(8, 242, 51);
+  background: linear-gradient(
+    -5deg,
+    rgba(8, 242, 51, 1) 0%,
+    rgba(208, 253, 216, 1) 61%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sumdel {
+  height: 100vh;
+  width: 40%;
+  /* border: 0.2rem solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.summary {
+  height: 50vh;
+  width: 60%;
+  border: 0.2rem solid silver;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading{
+  height: 8vh;
+  width: 100%;
+  border-bottom: 0.2rem solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sum1 {
+  height: 42vh;
+  width: 100%;
+  /* border: 0.2rem solid silver; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sum11{
+  height: 35vh;
+  width:50%;
+  /* border: 0.1rem solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sum11 p,.sum12 p{
+  color:#DC143C;
+}
+h2{
+  text-align: center;
+}
+h3{
+  color: #800080		;
+}
+
+p{
+ font-size: 1.5rem;
+  word-spacing: 0.5rem;
+}
+.sum12{
+  height: 35vh;
+  width: 5%;
+  /* border: 0.1rem solid black; */
+    display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    align-items: center;
+}
+.sum13{
+  height: 35vh;
+  width: 10%;
+  /* border: 0.1rem solid black; */
+      display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  
+}
+
+.delivery {
+  height: 30vh;
+  width: 80%;
+  border: 0.2rem solid orange;
+  border-radius: 5%;
+}
+.address{
+  height: 17vh;
+  width: 100%;
+  /* border-bottom: 0.2rem solid black; */
+}
+.add_head{
+  height: 5vh;
+  width: 100%;
+  border-bottom: 0.2rem solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add_details{
+  height: 12vh;
+  width: 100%;
+  /* border-bottom: 0.2rem solid silver; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date{
+   height: 10vh;
+  width: 100%;
+  
+}
+.date1{
+  height: 5vh;
+  width: 100%;
+  border-bottom: 0.2rem solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date2{
+  height: 7vh;
+  width: 100%;
+  /* border-bottom: 0.2rem solid silver; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment {
+  height: 100vh;
+  width: 60%;
+  /* border: 0.2rem solid silver; */
+}
+
